@@ -1,0 +1,82 @@
+1st )sk-proj-AdRMdtNlx1r9muQsbJknT3BlbkFJDOOYpU0ZntnA9kfmtP8r
+
+2nd key)sk-proj-JivlyMdXRtcO88qggr0CT3BlbkFJNIbuFEFfNeD36PNWorgo
+
+
+https://platform.openai.com/api-keys
+
+
+
+-------------------------------------------------------------
+mujhe kya karna hai - o/p mere hisab se chaiye 
+specifc prompt chaiye - 
+using the given Particulars, Major Head, Sub Head, group the particulars in the given major head-and sub-head  with the help of the list below.
+
+Particulars-                                         
+Reserves & Surplus										
+In Fed IIM N
+Kalindi Dhakulkar (Capital A/c)
+Shrutika Bagul (Capital A/c)
+4% Optionally Convertible Unsecured Debentures
+Loan From Director ( Kalindi)
+Loan From Director (Shrutika)
+
+Major Heads-
+Inventories,
+Share Capital,
+Long-Term Borrowings,
+Short Term Borrowing
+
+
+Sub Heads-
+Surplus Opening balance
+ISSUED, SUBSCRIBED & PAID UP CAPITAL
+Bonds and Debentures
+Loans And Advances From Related Parties
+
+give the outputs as a dictionary elements as-
+{P:[m,s]} 
+where P - is Particulars 
+      m - is Major head
+      s - is Sub head 
+
+
+BetterPrompt="""
+Classify the following particulars into the given major heads and sub-heads. 
+
+Particulars: 
+- Reserves & Surplus
+- In Fed IIM N
+- Kalindi Dhakulkar (Capital A/c)
+- Shrutika Bagul (Capital A/c)
+- 4% Optionally Convertible Unsecured Debentures
+- Loan From Director (Kalindi)
+- Loan From Director (Shrutika)
+
+Major Heads:
+- Inventories
+- Share Capital
+- Long-Term Borrowings
+- Short Term Borrowing
+
+Sub Heads:
+- Surplus Opening balance
+- ISSUED, SUBSCRIBED & PAID UP CAPITAL
+- Bonds and Debentures
+- Loans And Advances From Related Parties
+
+Output the results as a dictionary where each particular maps to a list with the major head and sub-head.
+give only the dictionary output dont write anything else
+dont even write json 
+"""
+
+
+link-
+https://platform.openai.com/usage
+
+
+
+C:\\Users\\jadit\\OneDrive\\Desktop\\BalanceSheetProject\\ExcelFiles\\InputForGrouping\\Test-Trialbalance-AddCol\\TestSheet.xlsx
+
+
+C:\\Users\\jadit\\OneDrive\\Desktop\\outputTest\\try2.xlsx

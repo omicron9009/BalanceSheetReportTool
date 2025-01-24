@@ -1,0 +1,31 @@
+1. Face of Balance Sheet - (put data left) - excel sheet output
+
+2. Grouping the Particulars - excel sheet output 
+	-> handled many particulars problem 
+
+3. reading Required data for Every schedule - (Stores in the Dictionary)
+
+4. Verifying the trial balance sum of Debits and Credits - (ask for where to have output)
+
+5. Schedules - Seperated in Balance sheet and Profit and loss
+
+6. 	->put data in the corresponding schedule 
+	->save the sum for every scehdule 
+	->for evry template (major head)
+	->handle repeating values in the dictionary 
+
+7.representing the values in the BalanceSheet (ask for where to have output and input file)
+
+8.representing the values in the Profit and Loss Sheet (ask for where to have output and input file)
+
+9.Converted the TrialBalance verification (Check the Sum of Debits and Credits )
+
+10.Generated Api key For the Exe file :- sk-proj-sDfZv0VysuMNjcl8K9blT3BlbkFJ3GEaowkKlkwQImZkcBcp
+
+To do -->
+-Create Profit and loss template
+-read the sum and put the values in the Profit and loss sheet 
+-Deferred Tax, Earning Per share,PPE, Share Capital-------<Schedules>
+-test The overall for a different Trial Balance
+
+

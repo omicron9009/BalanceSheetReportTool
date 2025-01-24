@@ -1,0 +1,42 @@
+This readme file should be used as an instruction guide for the execution of the code.
+
+The execution has different sections and validations based on the flow of making a balancesheet
+
+Section 1- (Verification of Trial Balance)
+ 
+ ->concept: the sum of credits and debits should be the same in the trial balance to proceed in the Next section
+
+*In the execution of the code - 
+	.Enter the path of the raw trial balance.<the path on your Pc in the input field>
+	.The program will prompt for the same.
+		-Structure of the Trial Balance
+			the trial balance *Must* have 4 columns-
+			1."Particulars", 
+			2."Dr./Cr.", 
+			3."<date for the Current year>", 
+			4."<date for the Previous year>"
+				Note:
+			    -ensure the name of the Columns are same as above 
+			    -ensure the excel file does not have any other info <i.e name,address etc. of the company>
+			    -try to paste the path of the *Copy* of the Trial balance as an Input
+	.This will verify if the TrialBalance is ready for grouping or Not 
+	.If the trial balance is not verified the the Entries need to me matched 
+	.The ouptput would be Dispalyed on Screen - But is not present it as the Output in an Excel file.
+
+Section 2- (Grouping the Trial Balance)
+	->concept: the Particulars need to be grouped for the further Schedules 
+*In the execution of the code -
+	.Enter the path of the trial balance which is Verified for the Debitors and Creditors.
+	.The path of the output(Grouped trial balance) need to be given.
+	.The program will prompt the same.
+	.Ensure the structure of the trial balance is maintained.
+	.Here the Particulars are read and the Grouping is done by calling Chatgpt-API 4-o.
+	.This execution needs some time to execute "Do not turn of program Execution as it will to extra cost for the API calls".
+	.The Grouped output is Saved to the path provided.
+	.This Grouped trial Balance should be used for the input for the schedules.
+Section 3- (Making the Schedules)
+	
+
+
+
+
